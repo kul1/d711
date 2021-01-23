@@ -67,6 +67,7 @@ gem 'cloudinary', '1.13.2'
 gem 'kaminari', '1.2.0'
 gem 'kaminari-mongoid', '1.0.1'
 gem 'jquery-rails', '4.3.5'
+gem 'ckeditor'
 
 group :development, :test do
   gem 'shoulda'

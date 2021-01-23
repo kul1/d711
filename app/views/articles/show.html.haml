@@ -4,10 +4,10 @@
 .container
   %div.row::before 
     %div.col-md-12
-      %h1.content-wrap
+      %h2.display-3.mt-5.pt-5
         = @article.title
         = link_to image_tag('pencil.png', style:'border:none; float:right;', id: 'article_pen'), {controller: "articles", action: "edit", article_id: @article.id}, data: { confirm: "Please Confirm" }
-      %p
+      %hr
         = @article.text
       %h4.display-5
         = @article.body.html_safe

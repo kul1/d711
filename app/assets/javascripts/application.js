@@ -13,3 +13,5 @@
 //= require rails-ujs
 //  require turbolinks
 //= require jindalte.js
+//= require("trix")
+//= require("rails/actiontext")
